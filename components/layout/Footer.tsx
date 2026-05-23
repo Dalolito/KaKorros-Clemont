@@ -48,10 +48,10 @@ export default function Footer() {
         {/* Línea inferior */}
         <div className="mt-10 pt-6 border-t border-white/10 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2">
           <p className="text-white/20 text-xs">
-            Proyecto de grado — Comunicación Social
+            © Todos los derechos reservados — Jerónimo Hernández Aristizábal
           </p>
           <p className="text-white/20 text-xs">
-            Medellín, 2025
+            Medellín, 2026
           </p>
         </div>
       </div>
