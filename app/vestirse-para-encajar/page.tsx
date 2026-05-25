@@ -133,10 +133,7 @@ export default function VestirseParagEncajar() {
           Lunareja.
         </p>
 
-        <p className="text-white/80 text-lg sm:text-xl leading-relaxed mb-6">
-          El mismo Westcol ha dicho en sus streams que, si bien tiene ropa
-          Clemont, desde que salió esa canción ya no se la pone:
-        </p>
+
           <p className="text-white/80 text-lg sm:text-xl leading-relaxed mb-6">
             El mismo Westcol, amigo cercano de Kris R, ha dicho en sus streams que,
             si bien tiene ropa Clemont, desde que salió esa canción ya no se la

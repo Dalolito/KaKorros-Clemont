@@ -119,25 +119,13 @@ export default function ClemonVsKrisR() {
         </p>
 
         {/* Capturas */}
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 my-10">
-          <MediaEmbed
-            src="/images/captura3.PNG"
-            type="image"
-            aspect="portrait"
-            caption="Reacción en redes sociales"
-          />
-          <MediaEmbed
-            src="/images/captura5.PNG"
-            type="image"
-            aspect="portrait"
-            caption="Reacción en redes sociales"
-          />
-          <MediaEmbed
-            src="/images/directo.png"
-            type="image"
-            aspect="landscape"
-            caption="Directo"
-          />
+        <div className="flex flex-col sm:flex-row justify-center gap-3 my-10">
+          <div className="max-w-xs mx-auto">
+            <img src="/images/captura3.PNG" alt="Reacción redes sociales" className="w-full object-contain" />
+          </div>
+          <div className="max-w-xs mx-auto">
+            <img src="/images/captura5.PNG" alt="Reacción redes sociales" className="w-full object-contain" />
+          </div>
         </div>
 
         <p className="text-white/80 text-lg sm:text-xl leading-relaxed mb-6">
@@ -153,15 +141,12 @@ export default function ClemonVsKrisR() {
           size="md"
         />
 
-        {/* Stream Westcol */}
-        <div className="max-w-sm mx-auto mt-10">
-          <MediaEmbed
-            src="/videos/westcol-no-se-pone-clemont.mp4"
-            type="video"
-            aspect="portrait"
-            caption="Kris R en stream con Westcol"
-          />
-        </div>
+        <figure className="my-8 max-w-sm mx-auto">
+          <img src="/images/directo.png" alt="Directo" className="w-full object-contain" />
+          <figcaption className="mt-2 px-1 text-xs text-white/40 uppercase tracking-wider font-medium border-l-2 border-[#E63329] pl-3">
+            Kris R en stream con Westcol
+          </figcaption>
+        </figure>
 
         <p className="text-white/80 text-lg sm:text-xl leading-relaxed mt-10 mb-6">
           "No, no sé, y si los afectó pues discúlpenme" respondió entre risas
@@ -201,16 +186,6 @@ export default function ClemonVsKrisR() {
           musicales: también empezaron a marcar qué se veía "duro", qué daba
           estatus y qué valía la pena ponerse.
         </p>
-
-        {/* Video 2 */}
-        <div className="max-w-sm mx-auto">
-          <MediaEmbed
-            src="/videos/video-2.mp4"
-            type="video"
-            aspect="portrait"
-            caption="Clemont ni lo miran porque es para cacorros"
-          />
-        </div>
 
       </section>
 
