@@ -43,7 +43,14 @@ export default function VestirseParagEncajar() {
           El problema aparece cuando eso que queremos ser no nace de un
           sentimiento genuino, ni de una construcción personal, sino de la
           repetición de tendencias en todos los medios que van instalando
-          deseos y aspiraciones inconscientemente.
+          deseos y aspiraciones{" "}
+          <a
+            href="/presion-estetica-medellin"
+            className="text-[#E63329] underline underline-offset-2 hover:text-white transition-colors duration-200"
+          >
+            inconscientemente
+          </a>
+          .
         </p>
 
         {/* Imágenes 1, 2 y 3 */}

@@ -210,8 +210,14 @@ export default function PalacioNacional() {
         />
 
         <p className="text-white/80 text-lg sm:text-xl leading-relaxed mt-10 mb-6">
-          Poco a poco, Medellín empezó a fabricar su propia versión del estatus.
-          Marcas como Clemont, Undergold, Saint Theory, Blow Up o Monastery
+          Poco a poco,{" "}
+          <a
+            href="/negocio-streetwear-medellin"
+            className="text-[#E63329] underline underline-offset-2 hover:text-white transition-colors duration-200"
+          >
+            Medellín empezó a fabricar su propia versión del estatus.
+          </a>
+          {" "}Marcas como Clemont, Undergold, Saint Theory, Blow Up o Monastery
           crecieron en medio de un ecosistema de emprendimientos locales que
           entendió el valor aspiracional de la ropa urbana y lo mezcló con el
           alcance del reguetón y las redes sociales.
