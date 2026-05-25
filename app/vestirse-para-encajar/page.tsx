@@ -144,6 +144,13 @@ export default function VestirseParagEncajar() {
             un mesesito".
           </p>
 
+          <p className="text-white/80 text-lg sm:text-xl leading-relaxed mb-6">
+            Lunareja explica sobre esto que decirle cacorro a un hombre en Medellín se
+            sigue considerando como una ofensa violenta porque se pone en duda esa
+            masculinidad paisa hegemónica y por ello se siente como un cuestionamiento
+            al valor como hombre.
+          </p>
+
         <PullQuote
           quote="A mí me da cosita."
           author="Westcol, streamer"
