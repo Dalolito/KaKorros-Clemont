@@ -44,7 +44,7 @@ export default function ClemonVsKrisR() {
 
         <p className="text-white/80 text-lg sm:text-xl leading-relaxed mb-8">
           El 26 de septiembre del año pasado el artista Kris R lanzó{" "}
-          <span className="text-white italic">Los cacorros usan Kleimond</span>,
+          <span className="italic">Los cacorros usan Kleimond</span>,
           una canción que originalmente no se iba a llamar así, pero debido al
           revuelo que causó un preview de la canción en la que aparecía la
           famosa frase, Kris R decidió rebautizarla.
@@ -62,11 +62,12 @@ export default function ClemonVsKrisR() {
 
         <p className="text-white/80 text-lg sm:text-xl leading-relaxed mt-10 mb-8">
           Durante varios meses hubo silencio por parte de Kristian Rangel,
-          compositor y cantante de la canción, respecto a por qué había hecho
-          esa mención en su canción, incluso después de que Sebastián Echeverri,
-          creador de Clemont, reaccionara con un comunicado en el que culpaba a
-          Undergold, una marca competidora, de haberle pagado al artista para
-          que dijera eso en su canción.
+          compositor y cantante de la canción, ampliamente conocido en la
+          ciudad como Kris R, respecto a por qué había hecho esa mención en
+          su canción, incluso después de que Sebastián Echeverri, creador de
+          Clemont, reaccionara con un comunicado en el que culpaba a Undergold,
+          una marca competidora en el segmento de streetwear y moda juvenil,
+          de haberle pagado al artista para que dijera eso en su canción.
         </p>
 
         {/* Comunicado */}
@@ -85,38 +86,32 @@ export default function ClemonVsKrisR() {
         <p className="text-white/80 text-lg sm:text-xl leading-relaxed mb-8">
           Tanto él como la marca lo negaron, y el tema no pasó a instancias
           legales, en gran parte porque Kris R se cuidó de no mencionar el
-          nombre exacto de la marca en el título, cambiándolo por{" "}
-          <span className="text-white italic">Kleimond</span>.
+          nombre exacto de la marca en el título y cambiarlo por{" "}
+          <span className="italic">Kleimond</span>.
         </p>
 
-        <PullQuote
-          quote="Ya una camiseta de Clemont vale como 3 millones de pesos, con esa plata me compro Undergold."
-          author="Alejandro Sierra, estudiante Universidad Luis Amigó"
-          variant="black"
-          size="md"
-        />
-
-        <p className="text-white/80 text-lg sm:text-xl leading-relaxed mt-10 mb-6">
-          También cuenta que{" "}
-          <span className="text-white font-semibold">
+        <p className="text-white/80 text-lg sm:text-xl leading-relaxed mb-6">
+          "Ya una camiseta de Clemont vale como 3 millones de pesos, con esa plata
+          me compro Undergold" cuenta Alejandro Sierra, estudiante de la
+          Universidad Luis Amigó y consumidor de ambas marcas, confirmando que hay
+          cierta rivalidad implícita entre ellas, también cuenta que{" "}
+          <span className="font-bold">
             "desde el tema de la K, no he vuelto a comprar nada Clemont"
-          </span>
-          , acompañado de una sonrisita pícara que se repite en muchas personas
-          al preguntarle por el tema.
+          </span>{" "}
+          acompañado de una sonrisita pícara que se repite en muchas personas al
+          preguntarle por el tema.
         </p>
         
-        <p className="text-white/80 text-lg sm:text-xl leading-relaxed mt-10 mb-8">
-          A Kris R se le ha visto en muchas ocasiones vistiendo ropa de
-          Undergold, lo que aumentaba las sospechas. Sin embargo, según Andrés
-          Calle, coordinador de marca de Undergold:
+        <p className="text-white/80 text-lg sm:text-xl leading-relaxed mt-10 mb-6">
+          A Kris R se le ha visto en muchas ocasiones vistiendo ropa de Undergold,
+          lo que aumentaba las sospechas de que lo denunciado por Echeverri fuera
+          real, incluso ya había cantado una barra en la que decía "Desde que uso
+          Undergold, ¿Quién putas usa Monastery?" mostrando su preferencia por
+          esta y lanzando una puya a otra marca colombiana. Sin embargo, según
+          Andrés Calle, coordinador de marca de Undergold, "Undergold nunca tuvo
+          nada que ver, siempre hizo las cosas bien y, por eso mismo, nunca tuvo
+          que salir a dar declaraciones".
         </p>
-
-        <PullQuote
-          quote="Undergold nunca tuvo nada que ver, siempre hizo las cosas bien y, por eso mismo, nunca tuvo que salir a dar declaraciones."
-          author="Andrés Calle, coordinador de marca, Undergold"
-          variant="outline"
-          size="sm"
-        />
 
         <p className="text-white/80 text-lg sm:text-xl leading-relaxed mt-10 mb-6">
           Lo cierto es que el impacto ya estaba causado. Los TikToks y memes
@@ -124,7 +119,7 @@ export default function ClemonVsKrisR() {
         </p>
 
         {/* Capturas */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 my-10">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 my-10">
           <MediaEmbed
             src="/images/captura3.PNG"
             type="image"
@@ -137,6 +132,12 @@ export default function ClemonVsKrisR() {
             aspect="portrait"
             caption="Reacción en redes sociales"
           />
+          <MediaEmbed
+            src="/images/directo.png"
+            type="image"
+            aspect="landscape"
+            caption="Directo"
+          />
         </div>
 
         <p className="text-white/80 text-lg sm:text-xl leading-relaxed mb-6">
@@ -146,7 +147,7 @@ export default function ClemonVsKrisR() {
         </p>
 
         <PullQuote
-          quote="No hemos vuelto a traer; uno es precavido porque sabe que la gente se deja llevar de esas cosas."
+          quote="Ah, es que no hemos vuelto a traer; uno es precavido porque sabe que la gente se deja llevar de esas cosas."
           author="Sara, vendedora, El Hueco"
           variant="red"
           size="md"

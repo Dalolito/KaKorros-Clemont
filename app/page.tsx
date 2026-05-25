@@ -12,14 +12,11 @@ export default function Home() {
           <p className="text-white/70 text-xs uppercase tracking-widest font-semibold mb-6">
             Investigación periodística — Jerónimo Hernández
           </p>
-          <h1 className="font-display text-6xl sm:text-8xl lg:text-9xl text-white uppercase leading-none">
-            Encajar
+          <h1 className="font-display text-4xl sm:text-6xl lg:text-7xl text-white uppercase leading-tight">
+            ¿Los cacorros usan Clemont?
             <br />
-            cuesta.
+            Encajar cuesta en Medellín.
           </h1>
-          <p className="font-display text-3xl sm:text-5xl text-white/80 uppercase mt-4">
-            (En Medellín)
-          </p>
         </div>
       </section>
 
@@ -32,15 +29,15 @@ export default function Home() {
 
         <PullQuote
           quote="Antes traíamos una docena de camisetas y duraba una semana; ahora nos puede durar un mes o más."
-          author="David Acevedo, vendedor de streetwear, Palacio Nacional"
+          author="David Acevedo, vendedor de streetwear"
           variant="black"
           size="md"
         />
 
         <p className="text-white/80 text-lg sm:text-xl leading-relaxed mt-8 mb-8">
           También cuenta que quienes más han dejado de comprar son los jóvenes,
-          quienes aseguran que no quieren comprar ropa de la marca Clemont
-          porque es para cacorros.
+          quienes, palabras más, palabras menos, aseguran que no quieren comprar
+          ropa de la marca Clemont porque es para cacorros.
         </p>
 
         {/* Video 1 */}
@@ -73,13 +70,13 @@ export default function Home() {
         {/* Capturas 1, 2 y 4 */}
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 my-10">
           <MediaEmbed
-            src="/images/captura2.PNG"
+            src="/images/captura.PNG"
             type="image"
             aspect="portrait"
             caption="Captura redes sociales"
           />
           <MediaEmbed
-            src="/images/captura3.PNG"
+            src="/images/captura2.PNG"
             type="image"
             aspect="portrait"
             caption="Captura redes sociales"

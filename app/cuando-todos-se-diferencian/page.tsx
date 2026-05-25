@@ -66,33 +66,20 @@ export default function CuandoTodosSeDiferencian() {
           size="sm"
         />
 
-        <p className="text-white/80 text-lg sm:text-xl leading-relaxed mt-10 mb-8">
+        <p className="text-white/80 text-lg sm:text-xl leading-relaxed mb-8">
           Lunareja, en cambio, cree que la lógica de las redes sociales apunta
           hacia otro lado. En un entorno cada vez más globalizado y algorítmico,
           las tendencias no solo se replican más rápido, sino que también
-          tienden a homogeneizar la imagen y el estilo.
+          tienden a homogeneizar la imagen y el estilo. Tal vez por eso cada vez son más
+          comunes los videos, memes y comentarios que repiten la misma idea: "en
+          Medellín todos se visten igual", una frase que incluso Westcol ha
+          repetido en sus redes, destacando que otras ciudades como Bogotá "nos
+          llevan años luz en cuanto a estilo".
         </p>
 
         <p className="text-white/80 text-lg sm:text-xl leading-relaxed mb-8">
-          Tal vez por eso cada vez son más comunes los videos, memes y
-          comentarios que repiten la misma idea:
-        </p>
-
-        <PullQuote
-          quote="En Medellín todos se visten igual."
-          variant="red"
-          size="lg"
-        />
-
-        <p className="text-white/80 text-lg sm:text-xl leading-relaxed mt-10 mb-8">
-          Una frase que incluso Westcol ha repetido en sus redes, destacando
-          que otras ciudades como Bogotá "nos llevan años luz en cuanto a
-          estilo".
-        </p>
-
-        <p className="text-white/80 text-lg sm:text-xl leading-relaxed mt-10 mb-8">
-          Quizá ahí está la paradoja de una ciudad que convirtió la apariencia
-          en un lenguaje social: que en el intento constante por encajar, muchos
+          Quizá ahí está la paradoja de una ciudad que convirtió la apariencia en
+          un lenguaje social: que, en el intento constante por encajar, muchos
           terminaron pareciéndose entre sí.
         </p>
 

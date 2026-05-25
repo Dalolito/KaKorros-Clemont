@@ -80,12 +80,13 @@ export default function PalacioNacional() {
           que vive Medellín.
         </p>
 
-        <PullQuote
-          quote="Ellos han sido esos actores que se encargan de reflejar lo que ocurre a nivel local y eso es algo muy bacano porque permite a toda la industria crecer."
-          author="Andrés Calle, coordinador de marca, Undergold"
-          variant="outline"
-          size="sm"
-        />
+        <p className="text-white/80 text-lg sm:text-xl leading-relaxed mb-8">
+          "Ellos han sido esos actores que se encargan de reflejar lo que ocurre a
+          nivel local y eso es algo muy bacano porque permite a toda la industria
+          crecer", cuenta Andrés Calle sobre Undergold. "Nosotros hacemos un
+          esfuerzo muy grande en vestir a los artistas de forma muy orgánica, eso
+          nos permite conectar con las comunidades que ellos tienen".
+        </p>
 
         {/* Tienda Undergold */}
         <figure className="my-8 max-w-sm mx-auto">
@@ -96,18 +97,13 @@ export default function PalacioNacional() {
         </figure>
 
         <p className="text-white/80 text-lg sm:text-xl leading-relaxed mt-10 mb-8">
-          Calle recuerda que en ese momento la gente ya estaba buscando ese
-          tipo de siluetas y estéticas, pero todavía no podía conseguirlas
-          fácilmente en Medellín porque el mercado era tímido frente a esas
-          propuestas.
+          Calle recuerda que, en ese momento, la gente ya estaba buscando ese tipo
+          de siluetas y estéticas, pero todavía no podía conseguirlas fácilmente
+          en Medellín porque el mercado era tímido frente a esas propuestas.
+          "Tenemos que ser los que pongan esa vara", dice sobre el inicio de
+          Undergold y sobre una idea que ha atravesado gran parte de estas marcas:
+          la aspiración de convertirse en una mejor versión de sí mismo.
         </p>
-
-        <PullQuote
-          quote="Tenemos que ser los que pongan esa vara."
-          author="Andrés Calle, sobre el inicio de Undergold"
-          variant="black"
-          size="lg"
-        />
 
         <p className="text-white/80 text-lg sm:text-xl leading-relaxed mt-10 mb-8">
           En una ciudad donde los artistas se convirtieron en referentes de
@@ -176,6 +172,16 @@ export default function PalacioNacional() {
             caption="Tury en colaboración con Blessd, Ryan Castro y Kris R"
           />
         </div>
+
+        <p className="text-white/80 text-lg sm:text-xl leading-relaxed mt-10 mb-8">
+          Tury, conocido artísticamente como "El nene de Pedregal", creció viendo
+          en la música urbana una promesa de ascenso social: vestir marcas
+          exclusivas, montar motos de alto cilindraje y vivir de sus canciones.
+          Años después terminó compartiendo canciones con artistas como Blessd,
+          Ryan Castro y Kris R. <span className="font-bold">"Yo no uso feka, manito, mira esta suela"</span>
+          , canta en una de sus colaboraciones, reivindicando la autenticidad y el
+          lujo como símbolos de estatus dentro de esa estética.
+        </p>
 
         <p className="text-white/80 text-lg sm:text-xl leading-relaxed mt-10 mb-8">
           Así como una generación de reguetoneros creció admirando figuras

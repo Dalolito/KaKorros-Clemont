@@ -90,21 +90,23 @@ export default function VestirseParagEncajar() {
           <img src="/images/tweet-3.jpeg" alt="Tweet" className="w-full object-contain" />
         </div>
 
-        <p className="text-white/80 text-lg sm:text-xl leading-relaxed mb-8">
-          "Yo tengo muchos amigos que no tienen personalidad, que adoptan la
-          personalidad según las modas comunes del momento", recuerda también
-          que días después de salir la canción, fue a la universidad con una
-          camiseta de la marca y fue tildado de{" "}
-          <span className="text-white italic">cacorro</span> en su grupo de
-          amigos solo por llevarla puesta.
-        </p>
+        
+          <p className="text-white/80 text-lg sm:text-xl leading-relaxed mb-8">
+            "Yo tengo muchos amigos que como que no tienen personalidad, que adoptan
+            la personalidad según las modas comunes del momento, dejándose llevar de
+            lo que dice la gente, las canciones", recuerda también que días después
+            de salir la canción, fue a la universidad con una camiseta de la marca y
+            fue tildado de <span className="italic">cacorro</span> en su grupo de
+            amigos solo por llevarla puesta.
+          </p>
 
-        <PullQuote
-          quote="A mí me parece una estupidez, me parece peor dejar de ponerse la ropa que a uno le gusta porque lo dijo un reguetonero. Es cuestión de carácter."
-          author="Juan David Marín"
-          variant="outline"
-          size="sm"
-        />
+        
+          <PullQuote
+            quote="A mí me parece una estupidez, me parece peor dejar de ponerse la ropa que a uno le gusta porque lo dijo un reguetonero, es cuestión de carácter."
+            author="Juan David Marín"
+            variant="outline"
+            size="sm"
+          />
 
         <p className="text-white/80 text-lg sm:text-xl leading-relaxed mt-10 mb-8">
           Sin embargo, para algunos va más allá de tener carácter:
@@ -135,6 +137,15 @@ export default function VestirseParagEncajar() {
           El mismo Westcol ha dicho en sus streams que, si bien tiene ropa
           Clemont, desde que salió esa canción ya no se la pone:
         </p>
+          <p className="text-white/80 text-lg sm:text-xl leading-relaxed mb-6">
+            El mismo Westcol, amigo cercano de Kris R, ha dicho en sus streams que,
+            si bien tiene ropa Clemont, desde que salió esa canción ya no se la
+            pone: "A mí me da cosita" cuenta el streamer compartiendo lo que muchos
+            otros sintieron: un cuestionamiento a su virilidad masculina. Santiago
+            también menciona esta <span className="italic">cosita</span>: "Cuando
+            salió la canción y estaba muy reciente yo si me la dejé de poner por ahí
+            un mesesito".
+          </p>
 
         <PullQuote
           quote="A mí me da cosita."
